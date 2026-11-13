@@ -1,0 +1,68 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Aircraft database. DynamoDB source of truth, API Gateway HTTP API, Lambda write path.
+
+Globals:
+  Function:
+    Runtime: python3.12
+    Timeout: 10
+    MemorySize: 256
+
+Resources:
+  AircraftTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - {AttributeName: id, AttributeType: S}
+      KeySchema:
+        - {AttributeName: id, KeyType: HASH}
+      PointInTimeRecoverySpecification:
+        PointInTimeRecoveryEnabled: true
+
+  AircraftKeysTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - {AttributeName: aircraft_id, AttributeType: S}
+      KeySchema:
+        - {AttributeName: aircraft_id, KeyType: HASH}
+      PointInTimeRecoverySpecification:
+        PointInTimeRecoveryEnabled: true
+
+  AircraftApi:
+    Type: AWS::Serverless::HttpApi
+    Properties:
+      DefaultRouteSettings:
+        ThrottlingBurstLimit: 10
+        ThrottlingRateLimit: 5
+
+  PostAircraftFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: .
+      Handler: api.post_aircraft.lambda_handler
+      Environment:
+        Variables:
+          AIRCRAFT_TABLE: !Ref AircraftTable
+          KEYS_TABLE: !Ref AircraftKeysTable
+      Policies:
+        - DynamoDBWritePolicy: {TableName: !Ref AircraftTable}
+        - DynamoDBWritePolicy: {TableName: !Ref AircraftKeysTable}
+      Events:
+        CreateAircraft:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref AircraftApi
+            Path: /aircraft
+            Method: post
+
+Outputs:
+  ApiUrl:
+    Description: Base URL for the API
+    Value: !Sub "https://${AircraftApi}.execute-api.${AWS::Region}.amazonaws.com"
+  AircraftTableName:
+    Value: !Ref AircraftTable
+  AircraftKeysTableName:
+    Value: !Ref AircraftKeysTable
