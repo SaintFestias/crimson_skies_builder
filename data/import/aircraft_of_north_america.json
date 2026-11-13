@@ -622,7 +622,7 @@
         "maximum_gs_mass_lbs": 1980,
         "acceleration_rate": 1,
         "acceleration_rate_mass_lbs": 900,
-        "armor_points_total": 120,
+        "armor_points_total": 420,
         "armor_points_mass_lbs": 1260,
         "armor": {
           "nose": 80,
@@ -676,7 +676,7 @@
         "acceleration_rate": 3,
         "acceleration_rate_mass_lbs": 540,
         "armor_points_total": 280,
-        "armor_points_mass_lbs": 300,
+        "armor_points_mass_lbs":840,
         "armor": {
           "nose": 50,
           "port_wing_leading": 50,
