@@ -1,0 +1,63 @@
+openapi: 3.0.3
+info:
+  title: Aircraft Database API
+  version: 1.0.0
+  description: Create, read, update, and delete aircraft records. Writes require the edit key returned at creation.
+servers:
+  - url: https://{api_id}.execute-api.{region}.amazonaws.com/v1
+    variables:
+      api_id: {default: CHANGE_ME}
+      region: {default: us-east-1}
+paths:
+  /aircraft:
+    post:
+      summary: Create an aircraft
+      operationId: createAircraft
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AircraftInput'
+      responses:
+        '201':
+          description: Created. edit_key is shown once and cannot be retrieved later.
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/CreatedAircraft'}
+        '400': {description: Body is not a JSON object}
+        '422':
+          description: Schema or business-rule failure
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/ValidationError'}
+        '500': {description: Write failed}
+components:
+  schemas:
+    AircraftInput:
+      description: Aircraft fields chosen by the client. Server sets id, owner_id, version, schema_version, visibility, and source.
+      type: object
+      required: [name, class, propulsion, manufacturer, engines, dimensions, performance, weapons, armor, game_stats]
+      properties:
+        name: {type: string, minLength: 1, maxLength: 120}
+        class: {type: string, enum: [Fighter, Heavy Fighter]}
+        propulsion: {type: string, enum: [Tractor, Pusher]}
+    CreatedAircraft:
+      type: object
+      required: [id, record, edit_key]
+      properties:
+        id: {type: string}
+        record: {type: object}
+        edit_key: {type: string, description: Store this now. Only its hash is kept.}
+    ValidationError:
+      type: object
+      required: [error, details]
+      properties:
+        error: {type: string}
+        details:
+          type: array
+          items:
+            type: object
+            properties:
+              rule: {type: string}
+              message: {type: string}
