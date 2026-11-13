@@ -1,0 +1,751 @@
+{
+  "title": "Aircraft of North America",
+  "source": "Air Action Weekly 1937 Aircraft Review",
+  "aircraft": [
+    {
+      "name": "Whittly & Douglas M210 Raven",
+      "class": "Heavy Fighter",
+      "propulsion": "Pusher",
+      "manufacturer": "Whittly & Douglas",
+      "manufacturer_location": "Chicago, ISA",
+      "engine": "Pratt & Whitney Hornet Series II",
+      "engine_hp": 1261,
+      "dimensions": {
+        "wing_span": "33 ft., 11 in.",
+        "length": "25 ft., 5 in. (excluding prop)",
+        "height": "12 ft., 2 in."
+      },
+      "performance": {
+        "loaded_weight_lbs": 10750,
+        "service_ceiling_ft": 21000,
+        "range_miles": 400,
+        "max_speed_mph": 250,
+        "max_accel_ft_per_sec": 32.8,
+        "max_decel_ft_per_sec": 65.6
+      },
+      "weapons": [
+        {"count": 2, "name": "Sperry-Browning \"Hurricane\"", "caliber": 50, "type": "cannon"},
+        {"count": 4, "name": "Sperry-Browning \"Gatekeeper\"", "caliber": 40, "type": "machine gun"}
+      ],
+      "game_stats": {
+        "base_target_number": 4,
+        "base_target_number_mass_lbs": 7000,
+        "maximum_speed": null,
+        "maximum_speed_mass_lbs": 1680,
+        "maximum_gs": 3,
+        "maximum_gs_mass_lbs": 2100,
+        "acceleration_rate": 1,
+        "acceleration_rate_mass_lbs": 560,
+        "armor_points_total": 280,
+        "armor_points_mass_lbs": 840,
+        "armor": {
+          "nose": 50,
+          "port_wing_leading": 50,
+          "port_wing_trailing": 40,
+          "starboard_wing_leading": 50,
+          "starboard_wing_trailing": 40,
+          "tail": 30
+        },
+        "weapon_loadout": [
+          {"caliber": 50, "arc": "Forward", "mass_lbs": 400},
+          {"caliber": 50, "arc": "Forward", "mass_lbs": 400},
+          {"caliber": 40, "arc": "Forward", "mass_lbs": 250},
+          {"caliber": 40, "arc": "Forward", "mass_lbs": 250},
+          {"caliber": 40, "arc": "Forward", "mass_lbs": 250},
+          {"caliber": 40, "arc": "Forward", "mass_lbs": 250}
+        ]
+      }
+    },
+    {
+      "name": "Curtiss-Wright J2 Fury",
+      "class": "Fighter",
+      "propulsion": "Tractor",
+      "manufacturer": "Curtiss-Wright Aviation",
+      "manufacturer_location": "Cleveland, Ohio, ISA",
+      "engine": "14-cylinder Wright r-1800-C",
+      "engine_hp": 856,
+      "dimensions": {
+        "wing_span": "28 ft., 4 in.",
+        "length": "21 ft., 3 in. (excluding prop)",
+        "height": "14 ft., 9 in."
+      },
+      "performance": {
+        "loaded_weight_lbs": 7000,
+        "service_ceiling_ft": 18000,
+        "range_miles": 400,
+        "max_speed_mph": 250,
+        "max_accel_ft_per_sec": 65.6,
+        "max_decel_ft_per_sec": 65.6
+      },
+      "weapons": [
+        {"count": 2, "name": "Bruin Armaments", "caliber": 30, "type": "machine gun"},
+        {"count": 2, "name": "Bruin Armaments", "caliber": 40, "type": "machine gun"},
+        {"count": 1, "name": "Bruin Armaments \"Goliath\"", "caliber": 70, "type": "cannon"}
+      ],
+      "game_stats": {
+        "base_target_number": 7,
+        "base_target_number_mass_lbs": 4000,
+        "maximum_speed": null,
+        "maximum_speed_mass_lbs": 600,
+        "maximum_gs": 3,
+        "maximum_gs_mass_lbs": 840,
+        "acceleration_rate": 2,
+        "acceleration_rate_mass_lbs": 240,
+        "armor_points_total": 220,
+        "armor_points_mass_lbs": 660,
+        "armor": {
+          "nose": 40,
+          "port_wing_leading": 40,
+          "port_wing_trailing": 30,
+          "starboard_wing_leading": 40,
+          "starboard_wing_trailing": 30,
+          "tail": 40
+        },
+        "weapon_loadout": [
+          {"caliber": 30, "arc": "Forward", "mass_lbs": 150},
+          {"caliber": 30, "arc": "Forward", "mass_lbs": 150},
+          {"caliber": 40, "arc": "Forward", "mass_lbs": 250},
+          {"caliber": 40, "arc": "Forward", "mass_lbs": 250},
+          {"caliber": 70, "arc": "Forward", "mass_lbs": 850}
+        ]
+      }
+    },
+    {
+      "name": "McDonnell S2B Kestrel",
+      "class": "Heavy Fighter",
+      "propulsion": "Tractor",
+      "manufacturer": "McDonnell Aircraft Corporation",
+      "manufacturer_location": "St. Louis, Missouri, Dixie",
+      "engine": "Rolls Royce Merlin IIs (x2)",
+      "engine_hp": 2360,
+      "dimensions": {
+        "wing_span": "39 ft., 7 in.",
+        "length": "34 ft., 10 in. (excluding prop)",
+        "height": "13 ft., 8 in."
+      },
+      "performance": {
+        "loaded_weight_lbs": 12000,
+        "service_ceiling_ft": 25000,
+        "range_miles": 600,
+        "max_speed_mph": 250,
+        "max_accel_ft_per_sec": 98.4,
+        "max_decel_ft_per_sec": 65.6
+      },
+      "weapons": [
+        {"count": 2, "name": "Sperry-Browning \"Zephyr\"", "caliber": 30, "type": "machine gun"},
+        {"count": 2, "name": "Sperry-Browning \"Gatekeeper\"", "caliber": 40, "type": "machine gun"},
+        {"count": 3, "name": "McDonnell \"Bullfrog\"", "caliber": 60, "type": "cannon"}
+      ],
+      "game_stats": {
+        "base_target_number": 3,
+        "base_target_number_mass_lbs": 8000,
+        "maximum_speed": 3,
+        "maximum_speed_mass_lbs": 2160,
+        "maximum_gs": 2,
+        "maximum_gs_mass_lbs": 1600,
+        "acceleration_rate": 3,
+        "acceleration_rate_mass_lbs": 880,
+        "armor_points_total": 250,
+        "armor_points_mass_lbs": 750,
+        "armor": {
+          "nose": 50,
+          "port_wing_leading": 40,
+          "port_wing_trailing": 40,
+          "starboard_wing_leading": 40,
+          "starboard_wing_trailing": 40,
+          "tail": 40
+        },
+        "weapon_loadout": [
+          {"caliber": 30, "arc": "Forward", "mass_lbs": 150},
+          {"caliber": 30, "arc": "Forward", "mass_lbs": 150},
+          {"caliber": 40, "arc": "Forward", "mass_lbs": 250},
+          {"caliber": 40, "arc": "Forward", "mass_lbs": 250},
+          {"caliber": 60, "arc": "Forward", "mass_lbs": 600},
+          {"caliber": 60, "arc": "Forward", "mass_lbs": 600},
+          {"caliber": 60, "arc": "Forward", "mass_lbs": 600}
+        ]
+      }
+    },
+    {
+      "name": "Bell Valiant MkII",
+      "class": "Fighter",
+      "propulsion": "Pusher",
+      "manufacturer": "Bell Aircraft Corporation",
+      "manufacturer_location": "Marietta, Georgia",
+      "engine": "Rolls Royce Morgana",
+      "engine_hp": 910,
+      "dimensions": {
+        "wing_span": "24 ft., 3 in.",
+        "length": "23 ft., 7 in.",
+        "height": "15 ft., 1 in."
+      },
+      "performance": {
+        "loaded_weight_lbs": 3000,
+        "service_ceiling_ft": 17500,
+        "range_miles": 350,
+        "max_speed_mph": 300,
+        "max_accel_ft_per_sec": 65.6,
+        "max_decel_ft_per_sec": 65.6
+      },
+      "weapons": [
+        {"count": 6, "name": "Springfield Mark IV", "caliber": 30, "type": "machine gun"}
+      ],
+      "game_stats": {
+        "base_target_number": 8,
+        "base_target_number_mass_lbs": 3000,
+        "maximum_speed": 4,
+        "maximum_speed_mass_lbs": 720,
+        "maximum_gs": 4,
+        "maximum_gs_mass_lbs": 840,
+        "acceleration_rate": 2,
+        "acceleration_rate_mass_lbs": 150,
+        "armor_points_total": 130,
+        "armor_points_mass_lbs": 390,
+        "armor": {
+          "nose": 30,
+          "port_wing_leading": 20,
+          "port_wing_trailing": 20,
+          "starboard_wing_leading": 20,
+          "starboard_wing_trailing": 20,
+          "tail": 20
+        },
+        "weapon_loadout": [
+          {"caliber": 30, "arc": "Forward", "mass_lbs": 150},
+          {"caliber": 30, "arc": "Forward", "mass_lbs": 150},
+          {"caliber": 30, "arc": "Forward", "mass_lbs": 150},
+          {"caliber": 30, "arc": "Forward", "mass_lbs": 150},
+          {"caliber": 30, "arc": "Forward", "mass_lbs": 150},
+          {"caliber": 30, "arc": "Forward", "mass_lbs": 150}
+        ]
+      }
+    },
+    {
+      "name": "Curtiss-Wright P2 Warhawk",
+      "class": "Heavy Fighter",
+      "propulsion": "Tractor",
+      "manufacturer": "Curtiss-Wright",
+      "manufacturer_location": "Buffalo, New York, Empire State",
+      "engine": "Wright R-1350s (x3)",
+      "engine_hp": 2208,
+      "dimensions": {
+        "wing_span": "39 ft., 7 in.",
+        "length": "27 ft., 2 in.",
+        "height": "9 ft., 6 in."
+      },
+      "performance": {
+        "loaded_weight_lbs": 13250,
+        "service_ceiling_ft": 37000,
+        "range_miles": 750,
+        "max_speed_mph": 200,
+        "max_accel_ft_per_sec": 32.8,
+        "max_decel_ft_per_sec": 65.6
+      },
+      "weapons": [
+        {"count": 4, "name": "Sperry-Browning \"Gatekeeper\"", "caliber": 60, "type": "cannon"}
+      ],
+      "game_stats": {
+        "base_target_number": 2,
+        "base_target_number_mass_lbs": 9000,
+        "maximum_speed": 2,
+        "maximum_speed_mass_lbs": 1440,
+        "maximum_gs": 3,
+        "maximum_gs_mass_lbs": 3240,
+        "acceleration_rate": 1,
+        "acceleration_rate_mass_lbs": 900,
+        "armor_points_total": 340,
+        "armor_points_mass_lbs": 1020,
+        "armor": {
+          "nose": 70,
+          "port_wing_leading": 50,
+          "port_wing_trailing": 50,
+          "starboard_wing_leading": 50,
+          "starboard_wing_trailing": 50,
+          "tail": 70
+        },
+        "weapon_loadout": [
+          {"caliber": 60, "arc": "Forward", "mass_lbs": 600},
+          {"caliber": 60, "arc": "Forward", "mass_lbs": 600},
+          {"caliber": 60, "arc": "Forward", "mass_lbs": 600},
+          {"caliber": 60, "arc": "Forward", "mass_lbs": 600}
+        ]
+      }
+    },
+    {
+      "name": "Grumman E-1C Avenger",
+      "class": "Heavy Fighter",
+      "propulsion": "Tractor",
+      "manufacturer": "Grumman Aircraft Engineering",
+      "manufacturer_location": "Long Island, New York, Empire State",
+      "engine": "Feldman-16s (x2)",
+      "engine_hp": 1260,
+      "dimensions": {
+        "wing_span": "38 ft., 5 in.",
+        "length": "24 ft., 10 in.",
+        "height": "12 ft., 8 in."
+      },
+      "performance": {
+        "loaded_weight_lbs": 7000,
+        "service_ceiling_ft": 18000,
+        "range_miles": 600,
+        "max_speed_mph": 250,
+        "max_accel_ft_per_sec": 32.8,
+        "max_decel_ft_per_sec": 65.6
+      },
+      "weapons": [
+        {"count": 6, "name": "Sperry-Browning \"Zephyr\"", "caliber": 30, "type": "machine gun"},
+        {"count": 2, "name": "Sperry-Browning \"Crusader\"", "caliber": 60, "type": "cannon"}
+      ],
+      "game_stats": {
+        "base_target_number": 7,
+        "base_target_number_mass_lbs": 4000,
+        "maximum_speed": 3,
+        "maximum_speed_mass_lbs": 600,
+        "maximum_gs": 2,
+        "maximum_gs_mass_lbs": 480,
+        "acceleration_rate": 1,
+        "acceleration_rate_mass_lbs": 200,
+        "armor_points_total": 200,
+        "armor_points_mass_lbs": 600,
+        "armor": {
+          "nose": 50,
+          "port_wing_leading": 30,
+          "port_wing_trailing": 30,
+          "starboard_wing_leading": 30,
+          "starboard_wing_trailing": 30,
+          "tail": 30
+        },
+        "weapon_loadout": [
+          {"caliber": 30, "arc": "Nose", "mass_lbs": 150},
+          {"caliber": 30, "arc": "Nose", "mass_lbs": 150},
+          {"caliber": 30, "arc": "Nose", "mass_lbs": 150},
+          {"caliber": 30, "arc": "Nose", "mass_lbs": 150},
+          {"caliber": 30, "arc": "Nose", "mass_lbs": 150},
+          {"caliber": 30, "arc": "Nose", "mass_lbs": 150},
+          {"caliber": 60, "arc": "Nose", "mass_lbs": 600},
+          {"caliber": 60, "arc": "Nose", "mass_lbs": 600}
+        ]
+      }
+    },
+    {
+      "name": "Hughes-Lockheed Firebrand",
+      "class": "Heavy Fighter",
+      "propulsion": "Pusher",
+      "manufacturer": "Hughes Aviation Company",
+      "manufacturer_location": "Culver City, Hollywood",
+      "engine": "Allison X-900s (x2)",
+      "engine_hp": 1580,
+      "dimensions": {
+        "wing_span": "39 ft., 7 in.",
+        "length": "27 ft., 2 in.",
+        "height": "9 ft., 6 in."
+      },
+      "performance": {
+        "loaded_weight_lbs": 13250,
+        "service_ceiling_ft": 37000,
+        "range_miles": 750,
+        "max_speed_mph": 200,
+        "max_accel_ft_per_sec": 32.8,
+        "max_decel_ft_per_sec": 65.6
+      },
+      "weapons": [
+        {"count": 2, "name": "Barret Arms", "caliber": 50, "type": "cannon"},
+        {"count": 2, "name": "Barret Arms", "caliber": 70, "type": "cannon"}
+      ],
+      "game_stats": {
+        "base_target_number": 4,
+        "base_target_number_mass_lbs": 7000,
+        "maximum_speed": 3,
+        "maximum_speed_mass_lbs": 1680,
+        "maximum_gs": 2,
+        "maximum_gs_mass_lbs": 1260,
+        "acceleration_rate": 1,
+        "acceleration_rate_mass_lbs": 560,
+        "armor_points_total": 330,
+        "armor_points_mass_lbs": 990,
+        "armor": {
+          "nose": 60,
+          "port_wing_leading": 60,
+          "port_wing_trailing": 50,
+          "starboard_wing_leading": 60,
+          "starboard_wing_trailing": 50,
+          "tail": 50
+        },
+        "weapon_loadout": [
+          {"caliber": 50, "arc": "Forward", "mass_lbs": 400},
+          {"caliber": 50, "arc": "Forward", "mass_lbs": 400},
+          {"caliber": 70, "arc": "Forward", "mass_lbs": 850},
+          {"caliber": 70, "arc": "Forward", "mass_lbs": 850}
+        ]
+      }
+    },
+    {
+      "name": "Hughes Aviation Bloodhawk",
+      "class": "Fighter",
+      "propulsion": "Pusher",
+      "manufacturer": "Hughes Aviation Company",
+      "manufacturer_location": "Culver City, Hollywood",
+      "engine": "Allison V-1690",
+      "engine_hp": 1288,
+      "dimensions": {
+        "wing_span": "29 ft., 6 in.",
+        "length": "27 ft., 6 in.",
+        "height": "14 ft., 1 in."
+      },
+      "performance": {
+        "loaded_weight_lbs": 8250,
+        "service_ceiling_ft": 22000,
+        "range_miles": 400,
+        "max_speed_mph": 300,
+        "max_accel_ft_per_sec": 65.6,
+        "max_decel_ft_per_sec": 65.6
+      },
+      "weapons": [
+        {"count": 2, "name": "Barrett Arms \"Mustang\"", "caliber": 30, "type": "machine gun"},
+        {"count": 2, "name": "Barrett Arms \"Ranger\"", "caliber": 40, "type": "machine gun"}
+      ],
+      "game_stats": {
+        "base_target_number": 6,
+        "base_target_number_mass_lbs": 5000,
+        "maximum_speed": 4,
+        "maximum_speed_mass_lbs": 1600,
+        "maximum_gs": 4,
+        "maximum_gs_mass_lbs": 1800,
+        "acceleration_rate": 2,
+        "acceleration_rate_mass_lbs": 350,
+        "armor_points_total": 150,
+        "armor_points_mass_lbs": 450,
+        "armor": {
+          "nose": 40,
+          "port_wing_leading": 20,
+          "port_wing_trailing": 20,
+          "starboard_wing_leading": 20,
+          "starboard_wing_trailing": 20,
+          "tail": 30
+        },
+        "weapon_loadout": [
+          {"caliber": 30, "arc": "Forward", "mass_lbs": 150},
+          {"caliber": 30, "arc": "Forward", "mass_lbs": 150},
+          {"caliber": 40, "arc": "Forward", "mass_lbs": 250},
+          {"caliber": 40, "arc": "Forward", "mass_lbs": 250}
+        ]
+      }
+    },
+    {
+      "name": "Marquette PR-1 Defender",
+      "class": "Fighter",
+      "propulsion": "Tractor",
+      "manufacturer": "Marquette Airworks",
+      "manufacturer_location": "Des Moines, Iowa",
+      "engine": "Juarez",
+      "engine_hp": 720,
+      "dimensions": {
+        "wing_span": "26 ft., 8 in.",
+        "length": "22 ft., 5 in. (excluding prop)",
+        "height": "13 ft., 2 in."
+      },
+      "performance": {
+        "loaded_weight_lbs": 7000,
+        "service_ceiling_ft": 18000,
+        "range_miles": 400,
+        "max_speed_mph": 360,
+        "max_accel_ft_per_sec": 32.8,
+        "max_decel_ft_per_sec": 65.6
+      },
+      "weapons": [
+        {"count": 2, "name": "Czech", "caliber": 50, "type": "cannon"},
+        {"count": 1, "name": "Czech", "caliber": 30, "type": "machine gun"}
+      ],
+      "game_stats": {
+        "base_target_number": 7,
+        "base_target_number_mass_lbs": 4000,
+        "maximum_speed": 3,
+        "maximum_speed_mass_lbs": 600,
+        "maximum_gs": 4,
+        "maximum_gs_mass_lbs": 1280,
+        "acceleration_rate": 1,
+        "acceleration_rate_mass_lbs": 280,
+        "armor_points_total": 140,
+        "armor_points_mass_lbs": 420,
+        "armor": {
+          "nose": 40,
+          "port_wing_leading": 20,
+          "port_wing_trailing": 20,
+          "starboard_wing_leading": 20,
+          "starboard_wing_trailing": 20,
+          "tail": 30
+        },
+        "weapon_loadout": [
+          {"caliber": 50, "arc": "Forward", "mass_lbs": 400},
+          {"caliber": 50, "arc": "Forward", "mass_lbs": 400},
+          {"caliber": 30, "arc": "Forward", "mass_lbs": 150}
+        ]
+      }
+    },
+    {
+      "name": "Fairchild F6II Brigand",
+      "class": "Heavy Fighter",
+      "propulsion": "Tractor",
+      "manufacturer": "Fairchild Aircraft Manufacturing",
+      "manufacturer_location": "Hagerstown, Maryland, Columbia",
+      "engine": "Pratt & Whitney R600",
+      "engine_hp": 991,
+      "dimensions": {
+        "wing_span": "41 ft., 1 in.",
+        "length": "30 ft., 9 in.",
+        "height": "12 ft., 11 in."
+      },
+      "performance": {
+        "loaded_weight_lbs": 11250,
+        "service_ceiling_ft": 18000,
+        "range_miles": 350,
+        "max_speed_mph": 250,
+        "max_accel_ft_per_sec": 65.6,
+        "max_decel_ft_per_sec": 65.6
+      },
+      "weapons": [
+        {"count": 4, "name": "Anderson Mk 103", "caliber": 50, "type": "cannon"},
+        {"count": 2, "name": "Westmore \"Dragon\" (rear turret)", "caliber": 30, "type": "machine gun"}
+      ],
+      "game_stats": {
+        "base_target_number": 6,
+        "base_target_number_mass_lbs": 3000,
+        "maximum_speed": 4,
+        "maximum_speed_mass_lbs": 900,
+        "maximum_gs": 2,
+        "maximum_gs_mass_lbs": 700,
+        "acceleration_rate": 2,
+        "acceleration_rate_mass_lbs": 350,
+        "armor_points_total": 200,
+        "armor_points_mass_lbs": 600,
+        "armor": {
+          "nose": 30,
+          "port_wing_leading": 40,
+          "port_wing_trailing": 30,
+          "starboard_wing_leading": 40,
+          "starboard_wing_trailing": 40,
+          "tail": 20
+        },
+        "weapon_loadout": [
+          {"caliber": 50, "arc": "Forward", "mass_lbs": 400},
+          {"caliber": 50, "arc": "Forward", "mass_lbs": 400},
+          {"caliber": 50, "arc": "Forward", "mass_lbs": 400},
+          {"caliber": 50, "arc": "Forward", "mass_lbs": 400},
+          {"caliber": 30, "arc": "Turret", "mass_lbs": 150},
+          {"caliber": 30, "arc": "Turret", "mass_lbs": 150},
+          {"caliber": null, "arc": "Rear Turret", "mass_lbs": 550}
+        ]
+      }
+    },
+    {
+      "name": "Hughes P21-J MkIII Devastator",
+      "class": "Fighter",
+      "propulsion": "Pusher",
+      "manufacturer": "Hughes Aviation / De Bruin Company",
+      "manufacturer_location": "Culver City, Hollywood / Denver, Free Colorado",
+      "engine": "Tornado G450",
+      "engine_hp": 1468,
+      "dimensions": {
+        "wing_span": "31 ft., 11 in.",
+        "length": "26 ft.",
+        "height": "16 ft., 3 in."
+      },
+      "performance": {
+        "loaded_weight_lbs": 9500,
+        "service_ceiling_ft": 20000,
+        "range_miles": 400,
+        "max_speed_mph": 300,
+        "max_accel_ft_per_sec": 98.4,
+        "max_decel_ft_per_sec": 65.6
+      },
+      "weapons": [
+        {"count": 4, "name": "United Munitions", "caliber": 40, "type": "machine gun"}
+      ],
+      "game_stats": {
+        "base_target_number": 5,
+        "base_target_number_mass_lbs": 6000,
+        "maximum_speed": null,
+        "maximum_speed_mass_lbs": 2160,
+        "maximum_gs": 3,
+        "maximum_gs_mass_lbs": 1620,
+        "acceleration_rate": 3,
+        "acceleration_rate_mass_lbs": 540,
+        "armor_points_total": 220,
+        "armor_points_mass_lbs": 660,
+        "armor": {
+          "nose": 50,
+          "port_wing_leading": 40,
+          "port_wing_trailing": 30,
+          "starboard_wing_leading": 40,
+          "starboard_wing_trailing": 30,
+          "tail": 50
+        },
+        "weapon_loadout": [
+          {"caliber": 40, "arc": "Forward", "mass_lbs": 250},
+          {"caliber": 40, "arc": "Forward", "mass_lbs": 250},
+          {"caliber": 40, "arc": "Forward", "mass_lbs": 250},
+          {"caliber": 40, "arc": "Forward", "mass_lbs": 250}
+        ]
+      }
+    },
+    {
+      "name": "Sanderson FB14 \"Vampire\"",
+      "class": "Heavy Fighter",
+      "propulsion": "Pusher",
+      "manufacturer": "Sanderson Machine Corporation",
+      "manufacturer_location": "Tulsa, Oklahoma, Republic of Texas",
+      "engine": "Pratt & Whitney P12s (x2)",
+      "engine_hp": 1590,
+      "dimensions": {
+        "wing_span": "27 ft., 6 in.",
+        "length": "33 ft., 4 in.",
+        "height": "18 ft., 4 in."
+      },
+      "performance": {
+        "loaded_weight_lbs": 13250,
+        "service_ceiling_ft": 25000,
+        "range_miles": 700,
+        "max_speed_mph": 200,
+        "max_accel_ft_per_sec": 32.8,
+        "max_decel_ft_per_sec": 65.6
+      },
+      "weapons": [
+        {"count": 2, "name": "Carver Series II", "caliber": 40, "type": "machine gun"},
+        {"count": 2, "name": "Carver Series IV", "caliber": 60, "type": "cannon"},
+        {"count": 2, "name": "Carver Series V", "caliber": 70, "type": "cannon"}
+      ],
+      "game_stats": {
+        "base_target_number": 2,
+        "base_target_number_mass_lbs": 9000,
+        "maximum_speed": 2,
+        "maximum_speed_mass_lbs": 1440,
+        "maximum_gs": 2,
+        "maximum_gs_mass_lbs": 1980,
+        "acceleration_rate": 1,
+        "acceleration_rate_mass_lbs": 900,
+        "armor_points_total": 120,
+        "armor_points_mass_lbs": 1260,
+        "armor": {
+          "nose": null,
+          "port_wing_leading": null,
+          "port_wing_trailing": 70,
+          "starboard_wing_leading": 70,
+          "starboard_wing_trailing": 70,
+          "tail": 60
+        },
+        "weapon_loadout": [
+          {"caliber": 40, "arc": "Forward", "mass_lbs": 250},
+          {"caliber": 40, "arc": "Forward", "mass_lbs": 250},
+          {"caliber": 60, "arc": "Forward", "mass_lbs": 600},
+          {"caliber": 60, "arc": "Forward", "mass_lbs": 600},
+          {"caliber": 70, "arc": "Forward", "mass_lbs": 850},
+          {"caliber": 70, "arc": "Forward", "mass_lbs": 850}
+        ]
+      }
+    },
+    {
+      "name": "William and Colt Peacemaker 370",
+      "class": "Fighter",
+      "propulsion": "Pusher",
+      "manufacturer": "William and Colt Aviation",
+      "manufacturer_location": "Dallas, Republic of Texas",
+      "engine": "18-cylinder Guiberson Model 77",
+      "engine_hp": 1126,
+      "dimensions": {
+        "wing_span": "35 ft., 5 in.",
+        "length": "27 ft., 2 in.",
+        "height": "14 ft., 2 in."
+      },
+      "performance": {
+        "loaded_weight_lbs": 9500,
+        "service_ceiling_ft": 26000,
+        "range_miles": 400,
+        "max_speed_mph": 250,
+        "max_accel_ft_per_sec": 98.4,
+        "max_decel_ft_per_sec": 65.6
+      },
+      "weapons": [
+        {"count": 4, "name": "Colt Industries \"Cheyenne\"", "caliber": 60, "type": "cannon"}
+      ],
+      "game_stats": {
+        "base_target_number": 5,
+        "base_target_number_mass_lbs": 6000,
+        "maximum_speed": 3,
+        "maximum_speed_mass_lbs": 1260,
+        "maximum_gs": 2,
+        "maximum_gs_mass_lbs": 960,
+        "acceleration_rate": 3,
+        "acceleration_rate_mass_lbs": 540,
+        "armor_points_total": 280,
+        "armor_points_mass_lbs": 300,
+        "armor": {
+          "nose": 50,
+          "port_wing_leading": 30,
+          "port_wing_trailing": 10,
+          "starboard_wing_leading": 50,
+          "starboard_wing_trailing": 40,
+          "tail": 50
+        },
+        "weapon_loadout": [
+          {"caliber": 60, "arc": "Forward", "mass_lbs": 600},
+          {"caliber": 60, "arc": "Forward", "mass_lbs": 600},
+          {"caliber": 60, "arc": "Forward", "mass_lbs": 600},
+          {"caliber": 60, "arc": "Forward", "mass_lbs": 600}
+        ]
+      }
+    },
+    {
+      "name": "Ravenscroft Coyote",
+      "class": "Heavy Fighter",
+      "propulsion": "Pusher",
+      "manufacturer": "Ravenscroft",
+      "manufacturer_location": "Farmington, Navajo Nation",
+      "engine": "Cortez \"Mountain Lion\"",
+      "engine_hp": 1261,
+      "dimensions": {
+        "wing_span": "35 ft., 6 in.",
+        "length": "22 ft., 2 in. (excluding prop)",
+        "height": "10 ft., 2 in."
+      },
+      "performance": {
+        "loaded_weight_lbs": 10750,
+        "service_ceiling_ft": 21000,
+        "range_miles": 400,
+        "max_speed_mph": 250,
+        "max_accel_ft_per_sec": 65.6,
+        "max_decel_ft_per_sec": 65.6
+      },
+      "weapons": [
+        {"count": 2, "name": "Durango Arms", "caliber": 70, "type": "cannon"},
+        {"count": 4, "name": "Durango Arms", "caliber": 40, "type": "machine gun"}
+      ],
+      "game_stats": {
+        "base_target_number": 4,
+        "base_target_number_mass_lbs": 7000,
+        "maximum_speed": 3,
+        "maximum_speed_mass_lbs": 1680,
+        "maximum_gs": 2,
+        "maximum_gs_mass_lbs": 1260,
+        "acceleration_rate": 2,
+        "acceleration_rate_mass_lbs": 630,
+        "armor_points_total": 240,
+        "armor_points_mass_lbs": 720,
+        "armor": {
+          "nose": 40,
+          "port_wing_leading": 40,
+          "port_wing_trailing": 40,
+          "starboard_wing_leading": 40,
+          "starboard_wing_trailing": 40,
+          "tail": 40
+        },
+        "weapon_loadout": [
+          {"caliber": 40, "arc": "Forward", "mass_lbs": 250},
+          {"caliber": 40, "arc": "Forward", "mass_lbs": 250},
+          {"caliber": 40, "arc": "Forward", "mass_lbs": 250},
+          {"caliber": 40, "arc": "Forward", "mass_lbs": 250},
+          {"caliber": 70, "arc": "Forward", "mass_lbs": 850},
+          {"caliber": 70, "arc": "Forward", "mass_lbs": 850}
+        ]
+      }
+    }
+  ]
+}
