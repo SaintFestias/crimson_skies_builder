@@ -2,7 +2,7 @@
 """Validate normalized aircraft records.
 
 Checks, in order:
-  1. JSON Schema (draft 2020-12) against schemas/aircraft.v1.json
+  1. JSON Schema (draft 2020-12) against schemas/aircraft_v1.json
   2. Duplicate ids
   3. Armor location sum equals total_points (null counts as 0)
   4. Armor mass equals total_points x 3
@@ -28,7 +28,7 @@ from pathlib import Path
 from jsonschema import Draft202012Validator
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-SCHEMA_PATH = REPO_ROOT / "schemas" / "aircraft.v1.json"
+SCHEMA_PATH = REPO_ROOT / "schemas" / "aircraft_v1.json"
 MASS_PER_ARMOR_POINT = 3
 
 
