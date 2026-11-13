@@ -2,7 +2,7 @@
 """Validate normalized aircraft records.
 
 Checks, in order:
-  1. JSON Schema (draft 2020-12) against schemas/aircraft_v1.json
+  1. JSON Schema (draft 2020-12) against schemas/aircraft.v1.json
   2. Duplicate ids
   3. Armor location sum equals total_points (null counts as 0)
   4. Armor mass equals total_points x 3
