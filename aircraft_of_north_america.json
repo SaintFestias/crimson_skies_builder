@@ -44,7 +44,7 @@
           "port_wing_trailing": 40,
           "starboard_wing_leading": 50,
           "starboard_wing_trailing": 40,
-          "tail": 30
+          "tail": 50
         },
         "weapon_loadout": [
           {"caliber": 50, "arc": "Forward", "mass_lbs": 400},
@@ -467,7 +467,7 @@
         "armor_points_total": 140,
         "armor_points_mass_lbs": 420,
         "armor": {
-          "nose": 40,
+          "nose": 30,
           "port_wing_leading": 20,
           "port_wing_trailing": 20,
           "starboard_wing_leading": 20,
@@ -573,9 +573,9 @@
         "armor_points_mass_lbs": 660,
         "armor": {
           "nose": 50,
-          "port_wing_leading": 40,
+          "port_wing_leading": 30,
           "port_wing_trailing": 30,
-          "starboard_wing_leading": 40,
+          "starboard_wing_leading": 30,
           "starboard_wing_trailing": 30,
           "tail": 50
         },
@@ -625,8 +625,8 @@
         "armor_points_total": 120,
         "armor_points_mass_lbs": 1260,
         "armor": {
-          "nose": null,
-          "port_wing_leading": null,
+          "nose": 80,
+          "port_wing_leading": 70,
           "port_wing_trailing": 70,
           "starboard_wing_leading": 70,
           "starboard_wing_trailing": 70,
@@ -679,8 +679,8 @@
         "armor_points_mass_lbs": 300,
         "armor": {
           "nose": 50,
-          "port_wing_leading": 30,
-          "port_wing_trailing": 10,
+          "port_wing_leading": 50,
+          "port_wing_trailing": 40,
           "starboard_wing_leading": 50,
           "starboard_wing_trailing": 40,
           "tail": 50
